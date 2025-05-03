@@ -31,7 +31,7 @@ const BarcodeScanner: React.FC<BarcodeScannerProps> = ({ fieldName, closeScanner
 			BarcodeFormat.UPC_E,
 			BarcodeFormat.ITF,
 			BarcodeFormat.CODABAR,
-			// BarcodeFormat.QR_CODE,
+			BarcodeFormat.QR_CODE,
 			BarcodeFormat.DATA_MATRIX,
 		];
 
